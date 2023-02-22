@@ -1,11 +1,11 @@
 #!/bin/bash
 ### BEGIN INIT INFO
-# Provides:          haltusbpower
+# Provides:          tomcat
 # Required-Start:    $all
 # Required-Stop:
 # Default-Start:     2 3 4 5
 # Default-Stop:
-# Short-Description: Halts USB power...
+# Short-Description: Starts/Stops Apache Tomcat
 ### END INIT INFO
 
 # chkconfig: 345 99 28
