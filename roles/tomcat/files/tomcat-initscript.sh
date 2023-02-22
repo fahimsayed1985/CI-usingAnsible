@@ -1,5 +1,13 @@
 #!/bin/bash
-#
+### BEGIN INIT INFO
+# Provides:          tomcat
+# Required-Start:    $all
+# Required-Stop:
+# Default-Start:     2 3 4 5
+# Default-Stop:
+# Short-Description: tomcat start/stop
+### END INIT INFO
+
 # chkconfig: 345 99 28
 # description: Starts/Stops Apache Tomcat
 # Tomcat 7 start/stop/status script
